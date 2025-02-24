@@ -1,0 +1,53 @@
+:root{
+
+    /* ----font-size----- */
+--text-sm:16px
+--text-md:
+--text-lg:
+--text-xl:
+--text-2xl:48px;
+/* ----font-weight---- */
+--fw-sm:400;
+--fw-md:500;
+--fw-lg:600;
+--fw-xl:700;
+
+/* ---color--- */
+--white-color:#FFFFFF;
+--black-color:#0000000A;
+--blue-color: #006EE6;
+}
+.font-family {
+    font-family: 'Rubik';
+}
+.fs-sm{
+    font-size: var(--text-sm);
+}
+.fs-xl {
+    font-size: var(--fw-xl);
+}
+
+.fc-white{
+    color: var(--white-color);
+}
+.bg-black{
+    background: var(--black-color);
+}
+.bg-blue{
+    background:var(--blue-color) ;
+}
+.fc-blue {
+    color: var(--blue-color);
+}
+.fw-500{
+    font-weight: var(--fw-md);
+}
+.fw-400 {
+    font-weight: var(--fw-sm);
+}
+.fw-700 {
+    font-weight: var(--fw-xl);
+}
+.fw-600{
+    font-weight: var(--fw-lg);
+}
