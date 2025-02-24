@@ -117,7 +117,7 @@
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;    
+    font-size: 16px;
 }
 
 .max-w-379 {
@@ -138,9 +138,9 @@
 
 .max-w-558 {
     max-width: 558px;
-            z-index: 99;
-            position: relative;
-    
+    z-index: 99;
+    position: relative;
+
 }
 
 .lh-57 {
@@ -151,9 +151,11 @@
 .mt-40 {
     margin-top: 40px;
 }
-.mb-40{
+
+.mb-40 {
     margin-bottom: 40px;
 }
+
 .ready {
     font-family: 'Rubik';
     font-style: normal;
@@ -166,73 +168,91 @@
 
 
 }
-.pt-60{padding-top: 60px;}
 
-.section-3-shadow{
-    top:0;
+.pt-60 {
+    padding-top: 60px;
+}
+
+.section-3-shadow {
+    top: 0;
     right: 0;
 }
+
 .section-3-shadow-1 {
     left: 0;
     bottom: 0;
     /* z-index: 99; */
 }
+
 /* ------section-4----- */
 
-.section-4-heading{
-    
-        font-family: 'Rubik';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        text-align: center;
+.section-4-heading {
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
 }
-.max-w-830{
+
+.max-w-830 {
     max-width: 830px;
 }
-.max-w-697{
+
+.max-w-697 {
     max-width: 697px;
 }
-.pl-10{
+
+.pl-10 {
     padding-left: 10px;
 }
-.pl-60{
+
+.pl-60 {
     padding-left: 60px;
 }
-.py-10{
+
+.py-10 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.my-50{
+
+.my-50 {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.py-60{
+
+.py-60 {
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.acc-head{
-    
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 110%;
-        color: #00060C;
+
+.acc-head {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 110%;
+    color: #00060C;
 }
-.subheading{
-        font-family: 'Rubik';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        color: #00060C;
-        opacity: 0.7;
-        text-align: left;
+
+.acc-head:hover {
+    color: var(--blue-color);
 }
+
+.subheading {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #00060C;
+    opacity: 0.7;
+}
+
 .accordion {
     --bs-accordion-bg: none;
-    --bs-accordion-border-color:none ;
+    --bs-accordion-border-color: none;
     --bs-accordion-active-bg: none;
     --bs-accordion-btn-focus-box-shadow: none;
 
@@ -275,9 +295,59 @@
 
 }
 
+/* ----section-5------ */
+.text-center {
+    text-align: center;
+}
+
+.card {
+    max-width: 364px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.circle {
+    background: #E6F1FD;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    transform: translateY(-35px);
+    position: absolute;
+    z-index: 1;
+}
+.blue-circle{
+    background: var(--blue-color);
+}
 
 
+.phone-heading {
 
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #00060C;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.mt-70{
+    margin-top: 70px;
+}
+.py-80{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 
 
 
