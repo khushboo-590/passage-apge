@@ -16,6 +16,7 @@
 --white-color:#FFFFFF;
 --black-color:#0000000A;
 --blue-color: #006EE6;
+--light-black: #00060C;
 }
 .font-family {
     font-family: 'Rubik';
@@ -42,8 +43,11 @@
 .fc-blue {
     color: var(--blue-color);
 }
-.gc-black{
+.fc--black{
     color: var(--black-color);
+}
+.bg-light-black{
+    background: var(--light-black);
 }
 .fw-500{
     font-weight: var(--fw-md);
