@@ -36,8 +36,14 @@
 .bg-blue{
     background:var(--blue-color) ;
 }
+.bg-white{
+    background: var(--white-color);
+}
 .fc-blue {
     color: var(--blue-color);
+}
+.gc-black{
+    color: var(--black-color);
 }
 .fw-500{
     font-weight: var(--fw-md);
