@@ -1,10 +1,7 @@
 :root{
 
     /* ----font-size----- */
---text-sm:16px
---text-md:
---text-lg:
---text-xl:
+--text-sm:16px;
 --text-2xl:48px;
 /* ----font-weight---- */
 --fw-sm:400;
