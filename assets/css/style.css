@@ -266,16 +266,9 @@
 .pb-130 {
     padding-bottom: 130px;
 }
-
-/* #backToTop {
-    position: fixed;
-    bottom: 20px;
-    right: 10px;
-    display: none;
-    z-index: 10;
-    background-color: transparent;
-    border: none;
-} */
+.pb-10{
+    padding-bottom: 10px;
+}
 
 .mt-100 {
     margin-top: 100px;
