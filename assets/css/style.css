@@ -231,6 +231,9 @@
 .section-2-box {
     transition: all 200ms linear;
     border-radius: 30px;
+    max-width: 340px;
+    margin-left: auto;
+    margin-right: auto;
   
 }
 
