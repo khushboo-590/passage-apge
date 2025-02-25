@@ -829,7 +829,11 @@
     .space {
         padding-top: 50px;
     }
-     
+        .grid-container img {
+            width: 100%;
+            height: 100%;
+        }
+    
         .my-file{
             margin-top: 70px;
         }
