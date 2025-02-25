@@ -50,11 +50,19 @@
     margin-left: 5px;
 }
 
-.btn {
+.btn-1 {
     padding: 14px 16px;
     border-radius: 51px;
     z-index: 1;
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    border: none;
 
+}
+
+.btn-1:hover {
+    background-color: #FFFFFF;
+    color: var(--blue-color);
 }
 
 .py-18 {
@@ -83,10 +91,13 @@
     line-height: 57px;
 
 
-}.link:hover{
+}
+
+.link:hover {
     color: #00060C;
 }
-.arrow-btn{
+
+.arrow-btn {
     right: -20px;
 }
 
@@ -107,8 +118,25 @@
     max-width: 100px;
 }
 
-.mt-120 {
-    margin-top: 120px;
+.mt-80 {
+    margin-top: 80px;
+}
+.slick-dots .slick-active {
+    width: 40px;
+    background-color: var(--blue-color);
+    border-radius: 10px;
+    height: 6px;
+}
+
+.slick-dots li {
+    width: 40px;
+    background-color: #4D5271;
+    border-radius: 10px;
+    height: 6px !important;
+}
+.slick-dots li button:before {
+    opacity: 0 !important;
+   
 }
 
 
@@ -129,7 +157,7 @@
 
 .max-w-379 {
     max-width: 379px;
-    
+
 
 }
 
@@ -139,68 +167,173 @@
     border: 0.527371px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(4.74634px);
     border-radius: 108.638px;
-    padding: 22px 20px;
-    right: 10px;
+    padding: 22px 10px;
+
+}
+.play {
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+}
+.button:hover {
+    background: var(--blue-color);
 }
 
 .my-file {
     display: flex;
 
 }
-.arrow{
-        bottom: 0;
-        margin-left: 950px;
-}
+
+.arrow {
+            bottom: 0;
+            right: 31px;
+        }
 
 /* ---section-1----- */
 .max-w-643 {
     max-width: 643px;
+    max-height: 474px;
 }
 
-.ellipse-content {
+.pt-100 {
+    padding-top: 100px;
+}
+
+.left-44 {
+    left: 44px;
+}
+
+.left-40 {
+    left: 40%;
+}
+
+.left-145 {
+    left: 145px;
+}
+
+.top-55 {
+    top: 55%;
+}
+
+.left-20 {
+    left: -20%;
+}
+
+.hover-head-text {
+    display: none;
+    transition: all 200ms linear;
+}
+
+.sec-2-box {
+    bottom: 0;
+    z-index: 10;
+    transition: all 200ms linear;
+}
+
+.section-2-box {
+    transition: all 200ms linear;
+    border-radius: 30px;
+}
+
+.section-2-box:hover {
+    transform: translate3d(0px, -30px, 0px);
+}
+
+.section-2-box:hover .sec-2-box {
+    top: 0;
+}
+
+.section-2-box:hover .box-text {
+    display: block !important;
+}
+
+.section-2-img-box:hover .hover-head-text {
+    display: block !important;
+}
+
+.section-2-box:hover .blur-box {
+    scale: 3;
+}
+
+.blur-box {
+    backdrop-filter: blur(15px);
+    border: 1px solid #FFFFFF33;
+    width: 405px;
+    height: 405px;
+    border-radius: 100%;
+    right: 0;
+}
+
+.pb-130 {
+    padding-bottom: 130px;
+}
+
+/* #backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    display: none;
+    z-index: 10;
+    background-color: transparent;
+    border: none;
+} */
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.max-w-259 {
+    max-width: 259px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.max-w-324 {
+    max-width: 324px;
+}
+
+
+.max-w-1140 {
+    max-width: 1140px;
+}
+
+.text-2 {
 
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 150%;
     color: #FFFFFF;
 }
 
-.ellipse {
-
-    border-bottom-left-radius: 30px;
-    transform: translateY(-323px);
+.z-10 {
+    z-index: 10;
 }
 
-.transform {
-    transform: translateY(-140px);
-    z-index: 1;
-    position: relative;
-}
+.box-text {
 
-.card-1 {
-    border-radius: 25px;
-}
 
-.pl-30 {
-    padding-left: 30px;
-}
-
-.ml-30 {
-    margin-left: 30px;
-}
-
-.z-2 {
-    z-index: 99;
-}
-
-.pb-23 {
-    padding-bottom: 23px;
-}
-
-.max-w-1140 {
-    max-width: 1140px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
 }
 
 /* -----section-2---- */
@@ -215,7 +348,6 @@
 }
 
 .our-edge-content {
-    /* Our edge lies not just in our advanced technology but in our tailored approach, adapting each solution to your unique business challenges, we make sure you’re not only in step with industry leaders - but also capitalizing on emerging trends to maintain your competitive edge. */
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -306,9 +438,6 @@
     line-height: 57px;
     color: #FFFFFF;
 
-
-
-
 }
 
 .pt-60 {
@@ -378,9 +507,7 @@
     color: #00060C;
 }
 
-.acc-head:hover {
-    color: var(--blue-color);
-}
+
 
 .subheading {
     font-family: 'Rubik';
@@ -399,6 +526,10 @@
     --bs-accordion-btn-focus-box-shadow: none;
 
 
+}
+
+.accordion-button :not(.collapsed):hover {
+    color: var(--blue-color);
 }
 
 .accordion-item:first-of-type {
@@ -463,6 +594,20 @@
 
 }
 
+.card:hover .circle svg path {
+    fill: #fff;
+}
+
+.card:hover .circle {
+    background: var(--blue-color);
+}
+
+.card:hover {
+    box-shadow: 0px 4px 16px 0px #1A2C0014;
+    border: 2px solid var(--blue-color);
+
+}
+
 .phone-heading {
 
     font-family: 'Rubik';
@@ -510,8 +655,9 @@
 }
 
 .icon:hover {
-    transform: scale(1.4);
+    transform: scale(1.5);
 }
+
 
 .footer-content {
     font-family: 'Rubik';
@@ -579,30 +725,15 @@
     max-width: 324px;
 }
 
-.mt-100{
+.mt-100 {
     margin-top: 100px;
 }
-.card-1:hover{
-    /* transform: scale(1.1); */
-            transition: all 200mslinear;
+.justify-content-end {
+    justify-content: flex-end!important;
 
-        
 }
 
-@media(max-width:1240px){
-    .arrow{
-       
-                bottom: 0;
-                margin-left: 750px;
-            }
-    }
-@media(max-width:1140px) {
-    .arrow {
 
-        bottom: 0;
-        margin-left: 550px;
-    }
-}
 @media (max-width:991.98px) {
 
     .menu-list {
@@ -659,31 +790,33 @@
         transform: rotate(-40deg);
         transform-origin: left;
     }
-        .arrow {
-            bottom: 0;
-            margin-left:280px;
-        }
-}
+         
 
+}
 @media (max-width:768px) {
     .center {
         display: flex;
         justify-content: center;
         align-items: center;
-        ;
+
     }
 
     .ellipse {
-        display: none;
+        width: 100%;
     }
 
-    text {
+    .text {
         text-align: center;
     }
 
     .grid-container img {
         width: 100%;
         height: 100%;
+    }
+
+    .text-2 {
+        font-size: 18px;
+        line-height: 140%;
     }
 
     .heading,
@@ -693,18 +826,11 @@
 
         font-size: 38px;
         line-height: 47px;
-
-
     }
 
     .w-100 {
-        width: 100;
+        width: 100%;
     }
-                        .arrow {
-                            bottom: 0;
-                            margin-left: 180px;
-                        }
-
 }
 
 @media(max-width:576px) {
@@ -712,22 +838,31 @@
     .heading,
     .our-edge,
     .ready,
-    .section-4-heading {
+    .section-4-heading,
+    .text-2 {
 
         font-size: 28px;
         line-height: 37px;
     }
 
-    .acc-head,.subheading {
+    .acc-head,
+    .subheading {
         font-size: 18px;
     }
-                        .arrow {
-                            bottom: 0;
-                            margin-left: 20px;
-                        }
-                        .space{
-                            padding-top: 50px;
-                        }
+
+    .arrow {
+        bottom: 0;
+        margin-left: 20px;
+    }
+
+    .text-2 {
+        font-size: 16px;
+        line-height: 130%;
+    }
+
+    .space {
+        padding-top: 50px;
+    }
 
 
 }
@@ -737,22 +872,29 @@
     .heading,
     .our-edge,
     .ready,
-    .section-4-heading {
+    .section-4-heading,
+    .text-2 {
         line-height: 27px;
         font-size: 23px;
 
 
     }
-    .pl-60{
-        padding-left: 20px;
-    }
 
-    .our-edge-content,.subheading {
+    .text-2
+    ,.discription {
         font-size: 14px;
         line-height: 130%;
     }
-                .arrow {
-                    bottom: 0;
-                    margin-left: 0px;
-                }
+
+    .pl-60 {
+        padding-left: 20px;
+    }
+
+    .our-edge-content,
+    .subheading,
+    .box-text {
+        font-size: 14px;
+        line-height: 130%;
+    }
+
 }
