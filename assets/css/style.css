@@ -203,7 +203,7 @@
     bottom: 0;
     right: 31px;
 }
-
+/* 
 #backToTop {
     position: fixed;
     bottom: 20px;
@@ -223,7 +223,7 @@
 }
 #backToTop:hover {
     background-color: var(--blue-color);
-}
+} */
 
 /* ---section-1----- */
 .max-w-643 {
@@ -951,5 +951,9 @@
         }
 
 }
+
+
+
+
 
 
