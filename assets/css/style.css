@@ -191,9 +191,9 @@
     left: 50%;
 }
 
-/* .button:hover {
+ .button:hover {
     background: var(--blue-color);
-} */
+} 
 
 .my-file {
     display: flex;
