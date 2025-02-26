@@ -765,7 +765,12 @@
     justify-content: flex-end !important;
 
 }
-
+@media(max-width:1200px){
+    .slick-dots {
+            position: absolute;
+            width: 50%;
+        }
+}
 
 @media (max-width:991.98px) {
 
