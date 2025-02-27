@@ -38,3 +38,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+function openPhoneDialog() {
+    let confirmCall = confirm("");
+    if (confirmCall) {
+        window.location.href = "tel:+923001234567";
+    }
+}
+
+document.getElementById("scrollButton").addEventListener("click", function () {
+    document.getElementById("targetSection").scrollIntoView({ behavior: "smooth" });
+});
+
+
+

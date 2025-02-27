@@ -1,15 +1,19 @@
 :root{
 
     /* ----font-size----- */
+
 --text-sm:16px;
 --text-2xl:48px;
+
 /* ----font-weight---- */
+
 --fw-sm:400;
 --fw-md:500;
 --fw-lg:600;
 --fw-xl:700;
 
 /* ---color--- */
+
 --white-color:#FFFFFF;
 --black-color:#0000000A;
 --blue-color: #006EE6;
